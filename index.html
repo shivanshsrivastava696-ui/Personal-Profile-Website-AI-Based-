@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal Portfolio of Shivansh Srivastava - Python Developer and AI & ML Enthusiast. Pursuing B.Tech CSE (AI) at AIMT Greater Noida.">
+    <title>Shivansh Srivastava | Portfolio</title>
+    
+    <!-- Google Fonts: Poppins (Headings) & Inter (Body) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header / Navigation -->
+    <header class="main-header">
+        <div class="container nav-container">
+            <a href="#hero" class="logo" id="nav-logo">
+                <span class="logo-text-accent">Shivansh</span>.S
+            </a>
+            
+            <nav class="nav-menu" id="nav-menu">
+                <a href="#about" class="nav-link" id="link-about">About</a>
+                <a href="#skills" class="nav-link" id="link-skills">Skills</a>
+                <a href="#contact" class="nav-link" id="link-contact">Contact</a>
+            </nav>
+            
+            <button class="mobile-menu-toggle" id="mobile-toggle" aria-label="Toggle Menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="hero-bg-shapes">
+                <div class="glow-orb glow-orb-1"></div>
+                <div class="glow-orb glow-orb-2"></div>
+            </div>
+            
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <span class="hero-badge reveal-fade">Hello, I'm</span>
+                    <h1 class="hero-title reveal-slide-up" id="hero-name">Shivansh Srivastava</h1>
+                    <p class="hero-tagline reveal-slide-up" id="hero-tagline">
+                        Python Developer <span class="tagline-dot">•</span> AI & ML Enthusiast
+                    </p>
+                    <div class="typewriter-container reveal-slide-up">
+                        <span class="typewriter-prefix">I am passionate about </span>
+                        <span class="typewriter-text" id="typewriter"></span><span class="typewriter-cursor">|</span>
+                    </div>
+                    <div class="hero-actions reveal-slide-up">
+                        <a href="#contact" class="btn btn-primary" id="btn-connect">Let's Connect</a>
+                        <a href="#about" class="btn btn-secondary" id="btn-explore">Explore Work</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="scroll-down-indicator">
+                <a href="#about" aria-label="Scroll Down">
+                    <span class="mouse-icon">
+                        <span class="mouse-wheel"></span>
+                    </span>
+                </a>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section section-padding">
+            <div class="container">
+                <div class="section-header reveal-slide-up">
+                    <span class="section-subtitle">Get To Know Me</span>
+                    <h2 class="section-title" id="about-heading">About Me</h2>
+                    <div class="section-underline"></div>
+                </div>
+                
+                <div class="about-grid">
+                    <div class="about-text-column reveal-slide-up">
+                        <p class="lead-text">
+                            I am a highly motivated Computer Science student deeply passionate about Artificial Intelligence, Machine Learning, and engineering real-world intelligent systems.
+                        </p>
+                        <p>
+                            Currently, I am pursuing my <strong>B.Tech in Computer Science & Engineering with specialization in AI</strong> at <strong>AIMT, Greater Noida (2024–2028)</strong>. I enjoy turning complex algorithms into working Python applications and exploring the frontiers of data-driven decision-making.
+                        </p>
+                        <p>
+                            As an active hackathon competitor, I thrive in fast-paced environments where teamwork, creativity, and rapid coding converge. I am proud to have finished in the <strong>Top 5 at the AIMT Hackathon 2026</strong>.
+                        </p>
+                    </div>
+                    
+                    <div class="about-card-column reveal-slide-up">
+                        <div class="info-card">
+                            <div class="info-card-header">
+                                <div class="decor-dot dot-red"></div>
+                                <div class="decor-dot dot-yellow"></div>
+                                <div class="decor-dot dot-green"></div>
+                                <span class="card-title-text">education_&_milestones.py</span>
+                            </div>
+                            <div class="info-card-body">
+                                <div class="timeline-item">
+                                    <span class="timeline-year">2024 - 2028</span>
+                                    <h4 class="timeline-title">B.Tech in CSE (AI)</h4>
+                                    <p class="timeline-detail">AIMT, Greater Noida</p>
+                                </div>
+                                <div class="timeline-item">
+                                    <span class="timeline-year">2026</span>
+                                    <h4 class="timeline-title">Top 5 Finalist</h4>
+                                    <p class="timeline-detail">AIMT Hackathon 2026</p>
+                                </div>
+                                <div class="timeline-item">
+                                    <span class="timeline-year">Current</span>
+                                    <h4 class="timeline-title">2nd-Year Student</h4>
+                                    <p class="timeline-detail">Focusing on ML frameworks & Intelligent Systems</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills-section section-padding">
+            <div class="container">
+                <div class="section-header reveal-slide-up">
+                    <span class="section-subtitle">What I Do</span>
+                    <h2 class="section-title" id="skills-heading">My Skills</h2>
+                    <div class="section-underline"></div>
+                </div>
+                
+                <div class="skills-grid">
+                    <!-- Languages Group -->
+                    <div class="skills-category-card reveal-slide-up" id="category-languages">
+                        <div class="category-icon-wrapper">
+                            <svg viewBox="0 0 24 24" class="category-icon" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="16 18 22 12 16 6"></polyline>
+                                <polyline points="8 6 2 12 8 18"></polyline>
+                            </svg>
+                        </div>
+                        <h3 class="category-title">Languages</h3>
+                        <p class="category-desc">Core programming languages used for developing applications and scripts.</p>
+                        <div class="skills-badges">
+                            <div class="skill-badge hover-lift">
+                                <span class="badge-dot python-dot"></span>
+                                <span class="badge-text">Python</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- AI & Data Science Group -->
+                    <div class="skills-category-card reveal-slide-up" id="category-ai-ds">
+                        <div class="category-icon-wrapper">
+                            <svg viewBox="0 0 24 24" class="category-icon" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
+                                <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+                                <line x1="12" y1="22.08" x2="12" y2="12"></line>
+                            </svg>
+                        </div>
+                        <h3 class="category-title">AI & Data Science</h3>
+                        <p class="category-desc">Frameworks, libraries, and concepts utilized to train models and analyze data.</p>
+                        <div class="skills-badges">
+                            <div class="skill-badge hover-lift">
+                                <span class="badge-dot ml-dot"></span>
+                                <span class="badge-text">Machine Learning</span>
+                            </div>
+                            <div class="skill-badge hover-lift">
+                                <span class="badge-dot numpy-dot"></span>
+                                <span class="badge-text">NumPy</span>
+                            </div>
+                            <div class="skill-badge hover-lift">
+                                <span class="badge-dot pandas-dot"></span>
+                                <span class="badge-text">Pandas</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Tools & Others Group -->
+                    <div class="skills-category-card reveal-slide-up" id="category-tools">
+                        <div class="category-icon-wrapper">
+                            <svg viewBox="0 0 24 24" class="category-icon" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path>
+                            </svg>
+                        </div>
+                        <h3 class="category-title">Tools & Others</h3>
+                        <p class="category-desc">Development environments, version control, and database management engines.</p>
+                        <div class="skills-badges">
+                            <div class="skill-badge hover-lift">
+                                <span class="badge-dot git-dot"></span>
+                                <span class="badge-text">Git</span>
+                            </div>
+                            <div class="skill-badge hover-lift">
+                                <span class="badge-dot mysql-dot"></span>
+                                <span class="badge-text">MySQL</span>
+                            </div>
+                            <div class="skill-badge hover-lift">
+                                <span class="badge-dot vscode-dot"></span>
+                                <span class="badge-text">VS Code</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section section-padding">
+            <div class="container">
+                <div class="section-header reveal-slide-up">
+                    <span class="section-subtitle">Get In Touch</span>
+                    <h2 class="section-title" id="contact-heading">Let's Connect</h2>
+                    <div class="section-underline"></div>
+                </div>
+                
+                <div class="contact-container reveal-slide-up">
+                    <p class="contact-lead">
+                        I am always open to discussing new opportunities, hackathons, projects, or just chatting about artificial intelligence! Feel free to reach out.
+                    </p>
+                    
+                    <div class="contact-grid">
+                        <!-- Email -->
+                        <a href="mailto:Shivansh.srivastava696@email.com" class="contact-card hover-lift" id="contact-email">
+                            <div class="contact-icon-box">
+                                <svg class="contact-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                    <polyline points="22,6 12,13 2,6"></polyline>
+                                </svg>
+                            </div>
+                            <h4 class="contact-label">Email</h4>
+                            <p class="contact-value">Shivansh.srivastava696@email.com</p>
+                        </a>
+                        
+                        <!-- Phone -->
+                        <a href="tel:+919870272338" class="contact-card hover-lift" id="contact-phone">
+                            <div class="contact-icon-box">
+                                <svg class="contact-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                                </svg>
+                            </div>
+                            <h4 class="contact-label">Phone</h4>
+                            <p class="contact-value">+91 9870272338</p>
+                        </a>
+
+                        <!-- Location -->
+                        <div class="contact-card hover-lift" id="contact-location">
+                            <div class="contact-icon-box">
+                                <svg class="contact-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                    <circle cx="12" cy="10" r="3"></circle>
+                                </svg>
+                            </div>
+                            <h4 class="contact-label">Location</h4>
+                            <p class="contact-value">Noida, UP, India</p>
+                        </div>
+                        
+                        <!-- LinkedIn -->
+                        <a href="https://linkedin.com/in/shivansh-srivastava9b522a3b9" target="_blank" rel="noopener noreferrer" class="contact-card hover-lift" id="contact-linkedin">
+                            <div class="contact-icon-box">
+                                <svg class="contact-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                                    <rect x="2" y="9" width="4" height="12"></rect>
+                                    <circle cx="4" cy="4" r="2"></circle>
+                                </svg>
+                            </div>
+                            <h4 class="contact-label">LinkedIn</h4>
+                            <p class="contact-value">linkedin.com/in/shivansh-srivastava9b522a3b9</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container footer-container">
+            <p class="copyright">&copy; 2026 Shivansh Srivastava. All rights reserved.</p>
+            <p class="footer-tagline">Designed with <span class="heart">♥</span> &amp; code in Python &amp; JS.</p>
+        </div>
+    </footer>
+
+    <!-- Script -->
+    <script src="app.js"></script>
+</body>
+</html>
